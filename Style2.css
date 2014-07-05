@@ -1,0 +1,34 @@
+body, html {
+	font-family: Big Caslon;
+}
+
+body {
+	background: black;
+	z-index: 1;
+
+}
+.mobile-background {
+	content: url('http://www.wallsave.com/wallpapers/1920x1200/lion/302437/lion-apple-free-hd-images-302437.jpg');
+	max-height: 200px;
+	width: auto;
+	border-radius: 5px;
+	z-index: 2;
+
+}
+h1 {
+	text-align: center;
+	padding-right: 10px;
+}
+.onLeft {
+	float: none;
+	width: 99%;
+}
+
+footer {
+	clear: both;
+	background-color: white;
+	height: 1200px;
+	outline: true;
+	border: 1px solid red;
+	z-index:5;
+}
